@@ -13,7 +13,7 @@ function UserList() {
 
     //Получение первичного списка юзеров
     useEffect(() => {
-        fetch('http://www.json-generator.com/api/json/get/cfeMcllvAO?indent=2')
+        fetch('https://www.json-generator.com/api/json/get/cfeMcllvAO?indent=2')
             .then(data => data.json())
             .then(json => {
                 setPrimaryList(new Set(json));
