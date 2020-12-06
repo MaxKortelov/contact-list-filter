@@ -46,8 +46,8 @@ function FilterPage({primaryList, workList, filterList, editor}) {
         filterList(newList);
     };
 
-    // Фильтрация после изменения первичного списка
-    useEffect(() => companyFilter(company), [primaryList]);
+    // Фильтрация компаний после изменения первичного списка
+    useEffect(() => { companyFilter(company)}, [primaryList, company, companyFilter]);
 
     return(
         <div className={styles.header}>
