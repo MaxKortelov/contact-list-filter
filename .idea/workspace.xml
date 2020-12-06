@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39040807-bc37-48a9-b0f4-748a4b9d10c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainPage/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainPage/MainPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/EditPage/EditPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/EditPage/EditPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/EditPage/EditPage.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterCompany/FilterCompany.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterCompany/FilterCompany.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterCompany/FilterCompany.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterName/FilterDirection/FilterDirection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterName/FilterDirection/FilterDirection.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterName/FilterDirection/FilterDirection.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterName/FilterName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterName/FilterName.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterName/FilterName.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/FilterPage/FilterPage.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/UserList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/UserList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/Users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/Users/Users.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserList/Users/Users.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,14 +53,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/UserList/EditPage/EditPage.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+                <state relative-caret-position="390">
+                  <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -193,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/UserList/FilterPage/FilterPage.test.js" />
         <option value="$PROJECT_DIR$/src/UserList/EditPage/EditPage.js" />
         <option value="$PROJECT_DIR$/src/UserList/EditPage/EditPage.test.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -218,26 +197,6 @@
               <item name="contact-list-benovate" type="b2602c69:ProjectViewProjectNode" />
               <item name="contact-list-benovate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact-list-benovate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-list-benovate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UserList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact-list-benovate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-list-benovate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UserList" type="462c0819:PsiDirectoryNode" />
-              <item name="EditPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact-list-benovate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-list-benovate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UserList" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,18 +241,18 @@
       <updated>1606935612064</updated>
       <workItem from="1606935614725" duration="5627000" />
       <workItem from="1606941815251" duration="22099000" />
-      <workItem from="1607046325632" duration="55390000" />
+      <workItem from="1607046325632" duration="55635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83116000" />
+    <option name="totallyTimeSpent" value="83361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19943622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19943622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,7 +264,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28674698" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -316,13 +275,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/UserList/UserList.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/My-final-work-of-HTML-CSS-module-fix-the-html-file/images/Tesla-Wordmark-Red-big.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -693,11 +645,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UserList/EditPage/EditPage.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="390">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
