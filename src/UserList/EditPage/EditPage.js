@@ -9,7 +9,7 @@ function EditPage({element, closeEdit, saveEdit}) {
     const [name, setName] = useState(element.name);
     const [surname, setSurname] = useState(element.surname);
     const [company, setCompany] = useState(element.company);
-    const [unique, setUnique] = useState(element.unique);
+    const unique = element.unique;
 
     return(
         <div className={styles.box} id="boox">

@@ -12,21 +12,24 @@ function MainPage() {
     // Загрузка данных об авторе страницы и вывод данных на экран
     const [status, setStatus] = useState({isLoaded: false, error: false});
     const [info, setInfo] = useState([]);
-    const octokit = new Octokit();
-    useEffect(() => {
-        octokit.users.getByUsername({
-            username: "MaxKortelov"
-        })
-            .then(json => {
-                setInfo(json.data);
-                setStatus({isLoaded: true, error: false});
-            })
-            .catch(err => {
-                setInfo('Something went wrong. Please reload the page!');
-                setStatus({isLoaded: false, error: true});
-            })
-    }, []);
 
+    useEffect(() => {
+        function getData() {
+            const octokit = new Octokit();
+            octokit.users.getByUsername({
+                username: "MaxKortelov"
+            })
+                .then(json => {
+                    setInfo(json.data);
+                    setStatus({isLoaded: true, error: false});
+                })
+                .catch(err => {
+                    setInfo('Something went wrong. Please reload the page!');
+                    setStatus({isLoaded: false, error: true});
+                })
+        }
+        getData();
+    }, []);
 
     return(
         <div className={styles.mainblock}>

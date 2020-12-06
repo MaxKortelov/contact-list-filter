@@ -10,12 +10,15 @@ function FilterCompany({workList, primaryList, onChangeCompany}) {
 
     // Создание списка компаний
     const [list, setList] = useState([]);
-    const filterCompany = () => {
-        let arr = [];
-        primaryList.forEach(el => {if(arr.indexOf(el.company) === -1) arr.push(el.company)});
-        setList([...arr]);
-    };
-    useEffect(() => filterCompany(), [workList]);
+
+    useEffect(() => {
+        const filterCompany = () => {
+            let arr = [];
+            primaryList.forEach(el => {if(arr.indexOf(el.company) === -1) arr.push(el.company)});
+            setList([...arr]);
+        };
+        filterCompany();
+    }, [primaryList]);
 
     //Рендеринг списка компаний
     const companies = list.map((el, id) => {
