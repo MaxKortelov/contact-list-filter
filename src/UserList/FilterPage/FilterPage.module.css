@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 15vh;
+    max-height: 15vh;
+    width: 100%;
+    border-bottom: 2px solid rgb(77, 104, 171);
+    background-color: rgba(100, 149, 237, 0.89);
+    z-index: 2;
+}
+
+.add {
+    margin: 1vw;
+}
+
+.filterFields {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 610px) {
+    .header {
+        justify-content: flex-end;
+    }
+
+    .filterFields {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

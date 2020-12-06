@@ -1,0 +1,59 @@
+.box {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+}
+
+.darkFont {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+.close {
+    position: absolute;
+    top: 3vw;
+    right: 3vw;
+}
+
+.editor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 20vw;
+    background-color: white;
+    z-index: 6;
+    border-radius: 10px;
+}
+
+.innerEditor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}
+
+.buttonField {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1100px) {
+    .editor {
+        width: 60%;
+        height: 40%;
+    }
+}
+
+@media (max-width: 790px) {
+    .editor {
+        width: 100%;
+        height: 50%;
+    }
+}

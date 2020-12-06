@@ -1,0 +1,22 @@
+.userListPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.load {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-top: 48vh;
+}
+
+.error {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    color: red;
+    font-size: 4vw;
+    margin-top: 48vh;
+}
