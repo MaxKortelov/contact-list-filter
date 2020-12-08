@@ -60,11 +60,13 @@ function Users({workList, deleteUser, editor}) {
 
     return (
         <div className={styles.main}>
-        <Pagination count={pages}
-                    color="primary"
-                    onChange={(e, num) => setPage(num * 10)}
-                    disabled={pages === 1}
-        />
+        <div className={styles.pagination}>
+            <Pagination count={pages}
+                        color="primary"
+                        onChange={(e, num) => setPage(num * 10)}
+                        disabled={pages === 1}
+            />
+        </div>
         <List className={styles.users}>
             {listSet}
         </List>
