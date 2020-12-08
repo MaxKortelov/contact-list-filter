@@ -23,6 +23,7 @@
 
 .pagination {
     margin: 1vw 0;
+    min-height: max-content;
 }
 
 @media (max-width: 880px) {
