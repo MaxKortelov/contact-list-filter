@@ -67,9 +67,11 @@ function Users({workList, deleteUser, editor}) {
                         disabled={pages === 1}
             />
         </div>
-        <List className={styles.users}>
-            {listSet}
-        </List>
+        <div>
+            <List className={styles.users}>
+                {listSet}
+            </List>
+        </div>
         </div>
     )
 }
