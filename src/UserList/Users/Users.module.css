@@ -23,6 +23,7 @@
 .pagination {
     margin: 1vw 0;
     height: 3vw;
+    padding: 0 0 3vw 0;
     min-height: max-content;
 }
 
