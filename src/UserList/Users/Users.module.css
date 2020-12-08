@@ -26,6 +26,10 @@
     min-height: max-content;
 }
 
+.wrap {
+    width: 100%;
+}
+
 @media (max-width: 880px) {
     .users {
         width: 80%;

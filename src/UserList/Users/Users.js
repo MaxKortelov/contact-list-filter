@@ -67,7 +67,7 @@ function Users({workList, deleteUser, editor}) {
                         disabled={pages === 1}
             />
         </div>
-        <div>
+        <div className={styles.wrap}>
             <List className={styles.users}>
                 {listSet}
             </List>
